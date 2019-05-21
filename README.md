@@ -24,18 +24,6 @@
 * [101学院](https://www.bilibili.com/video/av49008640/)：人工智能101学院的PyTorch系列视频课程，讲的比较详细、覆盖的知识点也比较广，感兴趣的朋友可以试听一下。
 * [七月在线](https://www.julyedu.com/course/getDetail/140/)：最后，向大家推荐的是国内领先的人工智能教育平台——七月在线的PyTorch入门与实战系列课。课程虽然是收费课程，但课程包含PyTorch语法、深度学习基础、词向量基础、NLP和CV的项目应用、实战等，理论和实战相结合，确实比其它课程讲的更详细，推荐给大家。
  
-
-## NLP&PyTorch实战
-* [Pytorch text](https://github.com/pytorch/text)：Torchtext是一个非常好用的库，可以帮助我们很好的解决文本的预处理问题。此github存储库包含两部分：
-    * torchText.data：文本的通用数据加载器、抽象和迭代器（包括词汇和词向量）
-    * torchText.datasets：通用NLP数据集的预训练加载程序
-我们只需要通过pip install torchtext安装好torchtext后，便可以开始体验Torchtext 的种种便捷之处。
-* [Pytorch-Seq2seq](https://github.com/IBM/pytorch-seq2seq)：Seq2seq是一个快速发展的领域，新技术和新框架经常在此发布。这个库是在PyTorch中实现的Seq2seq模型的框架，该框架为Seq2seq模型的训练和预测等都提供了模块化和可扩展的组件，此github项目是一个基础版本，目标是促进这些技术和应用程序的开发。
-* [BERT NER](https://github.com/kamalkraj/BERT-NER)：BERT是2018年google 提出来的预训练语言模型，自其诞生后打破了一系列的NLP任务，所以其在nlp的领域一直具有很重要的影响力。该github库是BERT的PyTorch版本，内置了很多强大的预训练模型，使用时非常方便、易上手。
-* [Fairseq](https://github.com/pytorch/fairseq)：Fairseq是一个序列建模工具包，允许研究人员和开发人员为翻译、总结、语言建模和其他文本生成任务训练自定义模型，它还提供了各种Seq2seq模型的参考实现。该github存储库包含有关入门、训练新模型、使用新模型和任务扩展Fairseq的说明，对该模型感兴趣的小伙伴可以点击上方链接学习。
-* [Quick-nlp](https://github.com/outcastofmusic/quick-nlp)：Quick-nlp是一个深受fast.ai库启发的深入学习Nlp库。它遵循与Fastai相同的API，并对其进行了扩展，允许快速、轻松地运行NLP模型。
-* [OpenNMT-py](https://github.com/OpenNMT/OpenNMT-py)：这是OpenNMT的一个PyTorch实现，一个开放源码的神经网络机器翻译系统。它的设计是为了便于研究，尝试新的想法，以及在翻译，总结，图像到文本，形态学等许多领域中尝试新的想法。一些公司已经证明该代码可以用于实际的工业项目中，更多关于这个github的详细信息请参阅以上链接。
- 
 ## CV&PyTorch实战
 * [pytorch vision](https://github.com/pytorch/vision)：Torchvision是独立于pytorch的关于图像操作的一些方便工具库。主要包括：vision.datasets 、vision.models、vision.transforms、vision.utils 几个包，安装和使用都非常简单，感兴趣的小伙伴们可以参考以上链接。
 * [OpenFacePytorch](https://github.com/thnkim/OpenFacePytorch)：此github库是OpenFace在Pytorch中的实现，代码要求输入的图像要与原始OpenFace相同的方式对齐和裁剪。
